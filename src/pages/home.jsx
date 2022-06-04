@@ -50,7 +50,7 @@ export default function Home() {
       {/* When the user hovers over the image we apply the wiggle style to it */}
       <animated.div onMouseEnter={trigger} style={style}>
         <img
-          src="https://cdn.glitch.com/2f80c958-3bc4-4f47-8e97-6a5c8684ac2c%2Fillustration.svg?v=1618196579405"
+          src="https://res.cloudinary.com/pollie/image/upload/v1621034051/Million_Ridge_tkchwl.png"
           className="illustration"
           onClick={handleChangeHello}
           alt="Illustration click to change language"
