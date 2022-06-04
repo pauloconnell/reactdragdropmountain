@@ -8,7 +8,7 @@ to this section's matching END comment to see page-specific styles.
 ******************************************************************************/
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #FFFFA0;
+  --color-bg: black;
   --color-text-main: #000000;
   --color-primary: #AFECE0;
   --wrapper-height: 85vh;
@@ -105,6 +105,9 @@ END Glitch hello-app default styles
 body {
   font-family: HK Grotesk;
   background-color: var(--color-bg);
+ background-image: url(https://res.cloudinary.com/pollie/image/upload/v1625247509/stars_background_image_x2sujn.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 .wrapper {
   min-height: var(--wrapper-height);
